@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <!-- Pulsante per tornare indietro -->
+    <button class="back-button" onclick="history.back()">&#8592; Torna indietro</button>
+
+    <div class="container">
+        <div class="box" onclick="openModal(0)">
+            <div class="content">
+                <h2>Presentiamoci!</h2>
+            </div>
+        </div>
+
+        <div class="box" onclick="openModal(1)">
+            <div class="content">
+                <h2>Giochiamo insieme?</h2>
+            </div>
+        </div>
+
+        <div class="box" onclick="openModal(2)">
+            <div class="content">
+                <h2> Cosa possiamo fare? </h2>
+            </div>
+        </div>
+
+        <div class="box" onclick="openModal(3)">
+            <div class="content">
+                <h2>Come mi sento </h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale per visualizzare le immagini -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+        <span class="next" onclick="changeImage(1)">&#10095;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <script>
+        const images = ['img/Presentiamoci.png', 'img/Giochiamo picc.png', 'img/Attivita.png', 'img/come sto.png'];
+        let currentIndex = 0;
+
+        function openModal(index) {
+            currentIndex = index;
+            updateModal();
+            document.getElementById("imageModal").style.display = "flex";
+        }
+
+        function closeModal() {
+            document.getElementById("imageModal").style.display = "none";
+        }
+
+        function changeImage(direction) {
+            currentIndex = (currentIndex + direction + images.length) % images.length;
+            updateModal();
+        }
+
+        function updateModal() {
+            const modalImg = document.getElementById("modalImage");
+            modalImg.src = images[currentIndex];
+        }
+    </script>
+
+</body>
+</html>
