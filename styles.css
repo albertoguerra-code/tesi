@@ -5,24 +5,25 @@ body {
     background-color: #ffffff;
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Add this line */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
 .benvenuto {
-    font-size: 2rem;
-    color: #333;
+    font-size: 3rem;
+    color: #000000;
     font-family: Arial, sans-serif;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 20px; 
   }
   
 .container {
     display: block;
-    /*flex-direction: column;
-    align-items: center;*/
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-top: 20px;
   }
@@ -57,7 +58,6 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
     width: 80%;
     max-width: 500px;
     cursor: pointer;
@@ -68,7 +68,6 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    /*transition: background-color 0.3s ease;*/
     width: 80%;
     max-width: 500px;
     cursor: pointer;
@@ -105,23 +104,31 @@ body {
 
 /* Modale per visualizzare le immagini */
 .modal {
-    /*display: none;*/
     position: fixed; 
-    z-index: 1; 
-    left:0;
+    z-index: 1;
+    left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    overflow: auto; /* Permette lo scroll se necessario */
-    display: flex; /* Usato per centrare l'immagine */
-    align-items: center; /* Allinea verticalmente al centro */
-    justify-content: center; /* Allinea orizzontalmente al centro */
+    overflow: auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.modal img {
+    display: block;
+    margin: auto;
 }
 
 .modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 90%;
-    max-height: 80vh; /* Limita l'altezza massima a 80% della finestra */
+    max-height: 90%;
+    height: 100vh;
     border-radius: 10px;
 }
 
@@ -143,7 +150,7 @@ body {
     font-weight: bold;
     color: white;
     cursor: pointer;
-    z-index: 1; /* Ensure the buttons are on top of the image */
+    z-index: 1;
   }
   
   .prev {
@@ -154,8 +161,7 @@ body {
     right: 10px;
   }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
     color: #bbb;
 }
 
