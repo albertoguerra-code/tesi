@@ -103,7 +103,7 @@ body {
 }
 
 /* Modale per visualizzare le immagini */
-/*.modal {
+.modal {
     position: fixed; 
     z-index: 1;
     left: 0;
@@ -120,7 +120,7 @@ body {
 .modal img {
     display: block;
     margin: auto;
-}*/
+}
 
 .modal-content {
     display: flex;
@@ -131,6 +131,10 @@ body {
     height: 100vh;
     border-radius: 10px;
 }
+img {
+    max-width: 100 %;
+    height: auto;
+  }
 
 .close {
     position: absolute;
