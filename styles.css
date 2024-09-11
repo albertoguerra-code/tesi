@@ -113,8 +113,8 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     overflow: auto;
     display: flex; 
-    align-items: center; 
-    justify-content: center; 
+   /*align-items: center; 
+    justify-content: center;*/
 }
 
 .modal img {
@@ -133,7 +133,7 @@ body {
 }
 img {
     max-width: 100 %;
-    height: auto;
+    height:auto;
   }
 
 .close {
