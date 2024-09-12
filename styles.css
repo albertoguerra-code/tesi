@@ -198,7 +198,7 @@ body {
     }
 }*/
 
-/* Media Query per smartphone */
+/* Media Query per smartphone 
 @media (max-width: 768px) {
     .benvenuto {
         font-size: 1.5rem;
@@ -221,7 +221,7 @@ body {
         font-size: 30px;
     }
 
-    .prev, {
+    .prev {
         font-size: 30px;
         left: 2.5%;
     }
@@ -241,7 +241,76 @@ body {
         height: auto;
         position: relative;
         top: 0px; 
-        left: 40px; 
-        right: 20px;
+        left: 2.5%; 
+        right: 0px;
+    }
+}*/
+
+@media (max-width: 768px) {
+    .benvenuto {
+        font-size: 1.5rem;
+    }
+
+    .box, .area.piccoli, .area.grandi {
+        width: auto;
+        padding: 1.5rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .close {
+        font-size: 30px;
+    }
+
+    .prev, .next {
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .prev {
+        left: 5%;
+    }
+
+    .next {
+        right: 5%;
+    }
+
+    .caption {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+    }
+
+    .modal img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+        max-height: 80%;
     }
 }
+
