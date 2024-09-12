@@ -273,7 +273,7 @@ body {
         }
     
         .prev, .next {
-            font-size: 20px;
+            font-size: 15px;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -286,11 +286,11 @@ body {
         }
     
         .prev {
-            left: 0;
+            left: 0.5%;
         }
     
         .next {
-            right: 0;
+            right: 0.5%;
         }
         /*.caption {
         font-size: 0.9rem;
@@ -315,7 +315,7 @@ body {
             margin: 50; /* Aggiunto per centrare l'immagine */
             max-width: 90%;
             max-height: 90%;
-            left: 5px;
+            left: 10px;
         }
     }
 }
