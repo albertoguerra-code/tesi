@@ -113,6 +113,7 @@ body {
     border-radius: 10px;
 }
 
+/* pulsante di chiusura immagine X*/
 .close {
     position: absolute;
     top: 20px;
@@ -124,6 +125,7 @@ body {
     cursor: pointer;
 }
 
+/* frecce di scorrimento fra le immagini*/
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -142,6 +144,7 @@ body {
 .next {
     right: 5%;
 }
+
 
 .close:hover, .close:focus {
     color: #bbb;
