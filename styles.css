@@ -32,7 +32,7 @@ body {
 .box {
     background-color: #f0f0f0;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     width: 80%; 
     margin: 20px auto;
   }
@@ -86,6 +86,7 @@ body {
     cursor: pointer;
     text-align: center;
 }
+
 .box a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -121,8 +122,8 @@ body {
     max-width: 100%;
     height: auto;
     position: relative;
-    top: 20px; 
-    left: 20px; 
+    top: 0px; 
+    left: 40px; 
     right: 20px;
 }
 
@@ -139,10 +140,10 @@ body {
 /* pulsante di chiusura immagine X*/
 .close {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
@@ -153,7 +154,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
     cursor: pointer;
@@ -161,18 +162,14 @@ body {
 }
 
 .prev {
-    left: 5%;
+    left: 2.5%;
 }
 
 .next {
-    right: 5%;
+    right: 2.5%;
 }
 
-
-.close:hover, .close:focus {
-    color: #bbb;
-}
-
+/* non so cosa faccia*/
 .caption {
     margin: auto;
     display: block;
