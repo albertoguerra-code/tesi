@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    background-image: url('/Users/albertoguerra/Documents/tesi/img/parco.png');
+    background-size: cover;  /* L'immagine copre l'intero schermo */
+    background-position: center; /* L'immagine è centrata */
+    background-repeat: no-repeat; /* L'immagine non si ripete */
     height: 100vh;
     display: flex;
     flex-direction: column; 
@@ -14,7 +18,7 @@ body {
 
 .benvenuto {
     font-size: 3rem;
-    color: #000000;
+    color: #2bd315;
     font-family: Arial, sans-serif;
     font-weight: bold;
     text-align: center;
