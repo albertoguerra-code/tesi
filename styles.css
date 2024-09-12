@@ -246,7 +246,7 @@ body {
     }
 }*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     body {
         .benvenuto {
             font-size: 1.5rem;
