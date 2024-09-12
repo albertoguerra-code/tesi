@@ -207,6 +207,8 @@ body {
     .box, .area.piccoli, .area.grandi {
         width: 100%;
         padding: 1.5rem;
+        position: relative;
+        right: 80px;
     }
 
     .content h2 {
