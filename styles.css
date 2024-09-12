@@ -165,7 +165,7 @@ body {
     right: 2.5%;
 }
 
-/* non so cosa faccia*/
+/* eventuali didascalie*/
 .caption {
     margin: auto;
     display: block;
@@ -199,7 +199,7 @@ body {
 }
 
 /* Media Query per smartphone */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .benvenuto {
         font-size: 1.5rem;
     }
@@ -207,8 +207,8 @@ body {
     .box, .area.piccoli, .area.grandi {
         width: auto;
         padding: 1.5rem;
-        position: relative;
-        right: 40px;
+        position: auto;
+        
     }
 
     .content h2 {
