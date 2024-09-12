@@ -179,7 +179,7 @@ body {
     display: none;
 }
 
-/* Media Query per tablet */
+/* Media Query per tablet 
 @media (max-width: 768px) {
     .benvenuto {
         font-size: 2rem;
@@ -196,7 +196,7 @@ body {
     .content p {
         font-size: 0.9rem;
     }
-}
+}*/
 
 /* Media Query per smartphone */
 @media (max-width: 768px) {
@@ -207,8 +207,6 @@ body {
     .box, .area.piccoli, .area.grandi {
         width: auto;
         padding: 1.5rem;
-        position: auto;
-        
     }
 
     .content h2 {
@@ -223,11 +221,27 @@ body {
         font-size: 30px;
     }
 
-    .prev, .next {
+    .prev, {
         font-size: 30px;
+        left: 2.5%;
+    }
+    .next {
+        font-size: 30px;
+        right: 2.5%;
     }
 
     .caption {
         font-size: 0.9rem;
+    }
+
+    .modal img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        top: 0px; 
+        left: 40px; 
+        right: 20px;
     }
 }
