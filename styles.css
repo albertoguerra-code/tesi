@@ -16,14 +16,6 @@ body {
     position: relative;
 }
 
-.benvenuto {
-    font-size: 3rem;
-    color: #2bd315;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px; 
-  }
   
 .container {
     display: block;
