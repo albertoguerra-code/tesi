@@ -249,11 +249,14 @@ body {
 @media (max-width: 768px) {
     .benvenuto {
         font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .box, .area.piccoli, .area.grandi {
         width: auto;
         padding: 1.5rem;
+        text-align: center;
     }
 
     .content h2 {
@@ -269,35 +272,36 @@ body {
     }
 
     .prev, .next {
-        font-size: 30px;
+        font-size: 25px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         color: white;
         background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px;
+        padding: 5px;
         cursor: pointer;
         border-radius: 50%;
+        z-index: 10;
     }
 
     .prev {
-        left: 5%;
+        left: 0;
     }
 
     .next {
-        right: 5%;
+        right: 0;
     }
 
-    .caption {
+    /*.caption {
         font-size: 0.9rem;
         text-align: center;
-    }
+    }*/
 
     .modal {
         display: flex;
         justify-content: center;
         align-items: center;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -308,9 +312,11 @@ body {
 
     .modal img {
         display: block;
-        margin: auto;
+        margin: 0; /* Aggiunto per centrare l'immagine */
         max-width: 90%;
-        max-height: 80%;
+        max-height: 90%;
+        left: 30px;
+        right: 40px;
     }
 }
 
