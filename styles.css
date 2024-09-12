@@ -312,11 +312,11 @@ body {
 
     .modal img {
         display: block;
-        margin: 0; /* Aggiunto per centrare l'immagine */
+        margin: 50; /* Aggiunto per centrare l'immagine */
         max-width: 90%;
         max-height: 90%;
-        left: 30px;
-        right: 40px;
+        left: 15px;
+        right: 30px;
     }
 }
 
