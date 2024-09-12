@@ -272,7 +272,7 @@ body {
     }
 
     .prev, .next {
-        font-size: 15px;
+        font-size: 10px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -315,7 +315,7 @@ body {
         margin: 0; /* Aggiunto per centrare l'immagine */
         max-width: 90%;
         max-height: 90%;
-        left: 10px;
+        left: 30px;
         right: 40px;
     }
 }
