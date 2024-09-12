@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    background-image: url('../img/parco.png');
+    background-image: url('img/parco.png');
     background-size: cover;  /* L'immagine copre l'intero schermo */
     background-position: center; /* L'immagine è centrata */
     background-repeat: no-repeat; /* L'immagine non si ripete */
