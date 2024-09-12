@@ -286,11 +286,11 @@ body {
         }
     
         .prev {
-            left: 0.5;
+            left: 0;
         }
     
         .next {
-            right: 0.5;
+            right: 0;
         }
         /*.caption {
         font-size: 0.9rem;
