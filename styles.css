@@ -249,5 +249,11 @@ body {
             max-height: 90%;
             left: 10px;
         }
+        modulo {
+            background-color: #fca625;
+            top: 50%;
+            border-radius: 10px;
+            max-width: auto;
+        }
     }
 }
