@@ -179,73 +179,7 @@ body {
     display: none;
 }
 
-/* Media Query per tablet 
-@media (max-width: 768px) {
-    .benvenuto {
-        font-size: 2rem;
-    }
-
-    .box, .area.piccoli, .area.grandi {
-        width: 95%;
-    }
-
-    .content h2 {
-        font-size: 1.3rem;
-    }
-
-    .content p {
-        font-size: 0.9rem;
-    }
-}*/
-
-/* Media Query per smartphone 
-@media (max-width: 768px) {
-    .benvenuto {
-        font-size: 1.5rem;
-    }
-
-    .box, .area.piccoli, .area.grandi {
-        width: auto;
-        padding: 1.5rem;
-    }
-
-    .content h2 {
-        font-size: 1.2rem;
-    }
-
-    .content p {
-        font-size: 0.8rem;
-    }
-
-    .close {
-        font-size: 30px;
-    }
-
-    .prev {
-        font-size: 30px;
-        left: 2.5%;
-    }
-    .next {
-        font-size: 30px;
-        right: 2.5%;
-    }
-
-    .caption {
-        font-size: 0.9rem;
-    }
-
-    .modal img {
-        display: block;
-        margin: auto;
-        max-width: 100%;
-        height: auto;
-        position: relative;
-        top: 0px; 
-        left: 2.5%; 
-        right: 0px;
-    }
-}*/
-
+/*adaptive design*/
 @media screen and (max-width: 1024px) {
     body {
         .box, .area.piccoli, .area.grandi {
@@ -286,10 +220,6 @@ body {
         .next {
             right: 0.5%;
         }
-        /*.caption {
-        font-size: 0.9rem;
-        text-align: center;
-        }*/
 
         .modal {
             display: flex;
@@ -313,25 +243,3 @@ body {
         }
     }
 }
-
-
-   /*@media screen and (min-width: 480px) {
-    body {
-     background: yellow;
-    }
-   }
-   @media screen and (min-width: 768px) {
-    body {
-     background: green;
-    }
-   }
-   @media screen and (min-width: 1024px) {
-    body {
-     background: blue;
-    }
-   }
-   @media screen and (min-width: 1200px) {
-    body {
-     background: gray;
-    }
-   }*/
