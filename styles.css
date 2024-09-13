@@ -83,6 +83,14 @@ body {
     text-align: center;
 }
 
+.modulo {
+    background-color: #ffffff;
+    position: relative;
+    top: 50%;
+    border-radius: 10px;
+    max-width: auto;
+}
+
 .box a {
     text-decoration: none;
     color: rgb(0, 0, 0);
