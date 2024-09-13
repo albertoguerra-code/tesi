@@ -85,7 +85,8 @@ body {
 
 .modulo {
     background-color: #fca625;
-    position: relative
+    position: relative;
+    top: 25%;
 }
 
 .box a {
