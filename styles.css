@@ -86,7 +86,7 @@ body {
 .modulo {
     background-color: #fca625;
     position: relative;
-    top: 50%;
+    top: 25%;
     border-radius: 10px;
     max-width: auto;
 }
@@ -249,11 +249,9 @@ body {
             max-height: 90%;
             left: 10px;
         }
-        modulo {
-            background-color: #fca625;
-            top: 50%;
-            border-radius: 10px;
-            max-width: auto;
-        }
     }
 }
+
+
+
+
